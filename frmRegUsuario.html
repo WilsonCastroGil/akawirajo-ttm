@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ATP World Tour</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Torne Wimbledon</h1>        
+        </header>
+        <a href="index.html">Home</a>     
+        <section>
+            <h2>Registro Usuario</h2>
+            <form>
+                <fieldset>
+                        <legend>Datos</legend>
+                    <label for="">Identificación</label>
+                    <input type="text" autofocus="autofocus">
+                    <br>
+                    <label for="">Nombres</label>
+                    <input type="text">
+                    <br>
+                    <label for="">Apellidos</label>
+                    <input type="text">
+                    <br>
+                    <p>Genero:                    
+                        <input class="form-input" type="radio" id="femenino" name="genero" value="huey" checked>
+                        <label for="femenino">Femenino</label>                    
+                        <input class="form-input" type="radio" id="masculino" name="genero" value="dewey">
+                        <label for="masculino">Masculino</label>
+                    </p>                    
+                    <label for="">Fecha Nacimiento</label>
+                    <input type="date">
+                    <br>
+                    <label for="">Email</label>
+                    <input type="email" placeholder="ejemplo@dominio.com">
+                    <br>
+                    <label for="">Celular</label>
+                    <input type="phone">
+                    <br>
+                    <label for="">Nacionalidad</label>
+					<select name="nacionalidad" id="nacionalidad" class="form-input">
+						<option value="">Colombia</option>
+						<option value="1">USA</option>
+						<option value="2">Inglaterra</option>
+						<option value="3">Japon</option>
+                    </select>
+                    <br>
+                    <p>Eventos:<br> 
+                        <input type="checkbox" name="evento" value="im">Individual Masculinos<br>      
+                        <input type="checkbox" name="evento" value="if">Individual Femenino<br>      
+                        <input type="checkbox" name="evento" value="dh">Dobles Hombres<br>
+                        <input type="checkbox" name="evento" value="df">Dobles Mujeres<br>
+                        <input type="checkbox" name="evento" value="dx">Dobles Mixtos<br>
+                    </p>                    
+                    <label for="">Fecha</label>
+                    <input type="date">
+                    <br><br>
+                </fieldset>
+                <input type="submit" value="Registrar">
+            </form>
+        </section>
+        <br><br><br><br>
+        <footer>
+            &copy; Copyright 2018 - akawijaro company
+            <a href="https://www.akawijaro.com/"> ttm.com</a>
+        </footer>
+    </div>
+</body>
+</html>
